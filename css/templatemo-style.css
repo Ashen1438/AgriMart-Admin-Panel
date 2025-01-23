@@ -95,7 +95,7 @@ button:focus {
 .tm-block-title {
   font-size: 1.1rem;
   font-weight: 700;
-  color: #fff;
+  color: #000000;
   margin-bottom: 30px;
 }
 .nav-link {
@@ -131,7 +131,7 @@ button:focus {
 }
 .navbar-nav .active > .nav-link,
 .navbar-nav .nav-link.active {
-  background:  linear-gradient(to left,  #78D65B,#069AAD);
+  background:   #6bbe97;
   color: rgb(0, 0, 0);
 }
 .navbar-nav .nav-link.active i {
@@ -208,12 +208,12 @@ button:focus {
 }
 .table {
   background-color:  #6bbe97;
-  color: #fcfcfc;
+  color: #020202;
   font-size: 85%;
   margin-bottom: 0;
 }
 thead {
-  background-color: #fcfcfc;
+  background-color: #000000;   
   color: #fff;
 }
 .table thead th {
@@ -343,17 +343,17 @@ thead {
   padding: 10px 24px;
 }
 .btn-primary {
-  color: #fff;
-  background-color: #f5a623;
-  border: 2px solid #f5a623;
+  color: #ffffff;
+  background-color: #030303;
+  border: 2px solid #000000;
   font-size: 90%;
   font-weight: 600;
 }
 .btn-primary:active,
 .btn-primary:hover {
-  color: #f5a623;
+  color: #000000;
   background-color: transparent;
-  border: 2px solid #f5a623;
+  border: 2px solid #000000;
 }
 .custom-file-input {
   cursor: pointer;
@@ -379,10 +379,10 @@ thead {
   color: #a0c0de;
 }
 .tm-bg-primary-dark {
-  background-color: #435c70;
+  background-color: #ebebeb;
 }
 .tm-bg-gray {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(212, 10, 104, 0.05);
 }
 .tm-table-mt {
   margin-top: 66px;
@@ -409,8 +409,8 @@ thead {
   margin-right: 0;
 }
 .page-item.active .page-link {
-  background-color: #e9ecef;
-  border-color: #dee2e6;
+  background-color: #000000;
+  border-color: #000000;
   color: #000;
 }
 input[type="checkbox"] {
@@ -454,7 +454,7 @@ input[type="checkbox"]:focus {
 }
 .tm-product-delete-icon {
   font-size: 1.1rem;
-  color: #fff;
+  color: #000000;
 }
 .tm-product-delete-link {
   padding: 10px;
@@ -514,7 +514,7 @@ input[type="checkbox"]:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: #070707;
   background: #aaa;
 }
 .tm-product-img-edit {
@@ -529,7 +529,7 @@ input[type="checkbox"]:focus {
   display: block;
 }
 .tm-upload-icon {
-  background: #455c71;
+  background: #ffffff;
   width: 55px;
   height: 55px;
   border-radius: 50%;
@@ -548,14 +548,14 @@ input[type="checkbox"]:focus {
   transition: all 0.2s ease;
 }
 .navbar-toggler:hover {
-  border-color: #f5a623;
-  color: #f5a623;
+  border-color: #000000;
+  color: #000000;
 }
 .tm-nav-icon {
-  color: #fff;
+  color: #000000;
 }
 .navbar-toggler:hover .tm-nav-icon {
-  color: #f5a623;
+  color: #000000;
 }
 ::-webkit-scrollbar {
   width: 8px;
@@ -622,7 +622,7 @@ input[type="checkbox"]:focus {
     text-align: center;
   }
   .nav-link {
-    color: #fff;
+    color: #080808;
     background-color: #567086;
     padding: 15px;
     flex-direction: row;
